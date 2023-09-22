@@ -84,12 +84,15 @@
     font-weight: 300;
     font-size: 1.4rem;
     display: flex;
-    justify-content: space-evenly;
-    padding: 2rem;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.5rem;
     background: #303841;
     border-top: 4px solid #be3144;
     height: 10vh;
   }
+
+  
 
   .contact-section{
     display: flex;
