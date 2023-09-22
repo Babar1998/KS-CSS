@@ -4,9 +4,7 @@
     margin: 0;
   }
 
-  * *::before, *::after{
-    box-sizing: inherit;
-  }
+  
 
   .welcome-section{
     font-size: x-small;
