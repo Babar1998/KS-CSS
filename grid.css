@@ -146,7 +146,8 @@ h2 {
   .projects-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 20px;
+    padding: 30px;
+    height: 60rem;
   }
 
   @media(max-width: 61.25em){
@@ -175,8 +176,9 @@ h2 {
 }
 
 .project-title {
-  font-size: 2rem;
-  padding: 0.2rem 0.5rem;
+  font-size: 1.3rem;
+  padding: 0.5rem 0.5rem;
+  height: 1rem;
 }
 
 p {
@@ -192,13 +194,14 @@ p {
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-gap: 4rem;
   width: 100%;
+  
   max-width: 1280px;
   margin: 0 auto;
   margin-bottom: 6rem;
 }
 
 .project-image {
-  height: calc(100% - 10rem);
+  height: calc(100% - 5rem);
   width: 100%;
   object-fit: cover;
 }
@@ -227,4 +230,25 @@ p {
     font-variant: normal;
     text-rendering: auto;
     line-height: 1;
+}
+
+.code {
+  color: #303841;
+  transition: color 0.3s ease-out;
+}
+
+.btn-show-all {
+  font-size: 2rem;
+  background: #303841;
+  transition: background 0.3s ease-out;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 2px;
+}
+
+.btn-show{
+  padding: 5rem;
 }
