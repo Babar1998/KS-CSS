@@ -135,7 +135,7 @@ h2 {
 
   .projects-section{
     text-align: center;
-    
+    height: 100rem;
     background: #45567d;
   }
 
@@ -287,17 +287,11 @@ html{
 @media(max-width: 30.625em){
 .projects-section {
   padding: 6rem 1rem;
-  
 }
 }
 
 @media(max-width: 30.625em){
 .projects-grid {
   grid-template-columns: 1fr;
-}
-.project-image {
-  height: calc(100% - 5rem);
-  width: 50%;
-  object-fit: cover;
 }
 }
